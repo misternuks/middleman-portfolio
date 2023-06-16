@@ -1,6 +1,22 @@
-<div class="row justify-content-center banner">
-  <div class="col-12 d-flex flex-column justify-content-center align-items-center h-100">
-    <%= image_tag 'placeholder.png', alt: "profile photo", class: 'avatar' %>
-    <h1 class="title-main">Portfolio</h1>
+<div id="banner" class="d-flex flex-column align-items-center justify-content-around p-5 bg-secondary text-white text-center">
+  <div>
+    <h1 class="pt-5">Matthew Ged Miner</h1>
+    <h2>Fullstack Developer</h2>
+  </div>
+  <div>
+    <h4 id="typewriter"></h4>
   </div>
 </div>
+<script>
+  var i = 0;
+  var txt = 'Site under construction . . .';
+  var speed = 100;
+
+  window.onload = function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("typewriter").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+</script>
