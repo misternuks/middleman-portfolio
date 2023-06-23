@@ -1,0 +1,14 @@
+ruby: { devicon: devicon-ruby-plain-wordmark, info: text }
+rails: { devicon: devicon-rails-plain-wordmark, info: text }
+html5: { devicon: devicon-html5-plain-wordmark, info: text }
+css3: { devicon: devicon-css3-plain-wordmark, info: text }
+bootstrap: { devicon: devicon-bootstrap-plain-wordmark, info: text }
+sass: { devicon: devicon-sass-original, info: text }
+js: { devicon: devicon-javascript-plain, info: text }
+git: { devicon: devicon-git-plain-wordmark, info: text }
+github: { devicon: devicon-github-original-wordmark, info: text }
+sqlite: { devicon: devicon-sqlite-plain-wordmark, info: text }
+postgresql: { devicon: devicon-postgresql-plain-wordmark, info: text }
+heroku: { devicon: devicon-heroku-plain-wordmark, info: text }
+bash: { devicon: devicon-bash-plain, info: text }
+figma: { devicon: devicon-figma-plain, info: text }

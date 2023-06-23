@@ -1,0 +1,72 @@
+[
+  {
+    "name": "ruby",
+    "devicon": "devicon-ruby-plain-wordmark",
+    "info": "text 1"
+  },
+  {
+    "name": "rails",
+    "devicon": "devicon-rails-plain-wordmark",
+    "info": "text 2"
+  },
+  {
+    "name": "html5",
+    "devicon": "devicon-html5-plain-wordmark",
+    "info": "text 3"
+  },
+  {
+    "name": "css3",
+    "devicon": "devicon-css3-plain-wordmark",
+    "info": "text 4"
+  },
+  {
+    "name": "bootstrap",
+    "devicon": "devicon-bootstrap-plain-wordmark",
+    "info": "text 5"
+  },
+  {
+    "name": "sass",
+    "devicon": "devicon-sass-original",
+    "info": "text 6"
+  },
+  {
+    "name": "js",
+    "devicon": "devicon-javascript-plain",
+    "info": "text 7"
+  },
+  {
+    "name": "git",
+    "devicon": "devicon-git-plain-wordmark",
+    "info": "text 8"
+  },
+  {
+    "name": "github",
+    "devicon": "devicon-github-original-wordmark",
+    "info": "text 9"
+  },
+  {
+    "name": "sqlite",
+    "devicon": "devicon-sqlite-plain-wordmark",
+    "info": "text 10"
+  },
+  {
+    "name": "postgresql",
+    "devicon": "devicon-postgresql-plain-wordmark",
+    "info": "text 11"
+  },
+  {
+    "name": "heroku",
+    "devicon": "devicon-heroku-plain-wordmark",
+    "info": "text 12"
+  },
+  {
+    "name": "bash",
+    "devicon": "devicon-bash-plain",
+    "info": "text 13"
+  },
+  {
+    "name": "figma",
+    "devicon": "devicon-figma-plain",
+    "info": "text 14"
+  }
+]

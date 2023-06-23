@@ -1,11 +1,13 @@
 #banner {
-  height: 75vh;
+  margin: 0;
+  min-height: 50vh;
 }
 
-#banner h4 {
-  font-family: 'Courier New', Courier, monospace;
+.banner-left {
+  background-color: #ddd;
 }
 
-// #banner h1 {
-//   font-size: 3rem;
-// }
+.banner-right {
+  background-color: #666;
+  color: white;
+}

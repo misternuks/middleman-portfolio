@@ -1,22 +1,23 @@
-<div id="banner" class="d-flex flex-column align-items-center justify-content-around p-5 bg-secondary text-white text-center">
-  <div>
-    <h1 class="pt-5">Matthew Ged Miner</h1>
-    <h2>Fullstack Developer</h2>
-  </div>
-  <div>
-    <h4 id="typewriter"></h4>
+<div id="banner" class="container-fluid d-flex">
+  <div class="row">
+    <div class="banner-left col-sm p-5 d-flex flex-column justify-content-center">
+      <h1>Matthew Ged Miner</h1>
+      <h4>I am a <span class="text-danger">full-stack web developer </span> specializing in Ruby on Rails with a background in materials developement, communications, project management, IT support, and data analysis.</h4>
+    </div>
+    <div class="banner-right col-sm p-5 d-flex flex-column justify-content-center">
+      <h2>Skillset</h2>
+      <div class="container button-grid">
+        <div class="row">
+          <% data.skills.each do |skill|%>
+            <div id="<%= skill.name %>" class="bg-transparent border-0 col-3 icon mx-2 <%= skill.name == "ruby" ? "text-danger" : "text-white" %> >">
+              <i class= <%= skill.devicon %> ></i>
+              <p class='d-none'> <%= skill.info %> </p>
+            </div>
+          <% end %>
+        </div>
+        <div class="msg">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-<script>
-  var i = 0;
-  var txt = 'Site under construction . . .';
-  var speed = 100;
-
-  window.onload = function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("typewriter").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-</script>
