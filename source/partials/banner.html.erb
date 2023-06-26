@@ -1,23 +1,10 @@
 <div id="banner" class="container-fluid d-flex">
   <div class="row">
-    <div class="banner-left col-sm p-5 d-flex flex-column justify-content-center">
-      <h1>Matthew Ged Miner</h1>
+    <div class="banner-left col p-5 d-flex flex-column justify-content-center">
+      <h1 class="display-1">Matthew Ged Miner</h1>
       <h4>I am a <span class="text-danger">full-stack web developer </span> specializing in Ruby on Rails with a background in materials developement, communications, project management, IT support, and data analysis.</h4>
     </div>
     <div class="banner-right col-sm p-5 d-flex flex-column justify-content-center">
-      <h2>Skillset</h2>
-      <div class="container button-grid">
-        <div class="row">
-          <% data.skills.each do |skill|%>
-            <div id="<%= skill.name %>" class="bg-transparent border-0 col-3 icon mx-2 <%= skill.name == "ruby" ? "text-danger" : "text-white" %> >">
-              <i class= <%= skill.devicon %> ></i>
-              <p class='d-none'> <%= skill.info %> </p>
-            </div>
-          <% end %>
-        </div>
-        <div class="msg">
-        </div>
-      </div>
     </div>
   </div>
 </div>

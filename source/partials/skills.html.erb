@@ -1,0 +1,23 @@
+<div class="row my-5">
+  <div class="col-12">
+    <div class="container">
+      <div id="skills">
+        <h2>Skills</h2>
+        <hr>
+        <div class="container button-grid">
+          <div class="row">
+            <% data.skills.each do |skill|%>
+              <div id="<%= skill.name %>" class="bg-transparent border-0 col-3 icon mx-2 <%= skill.name == "ruby" ? "text-danger" : "text-black" %> >">
+                <i class= <%= skill.devicon %> ></i>
+                <p class='d-none'> <%= skill.info %> </p>
+              </div>
+            <% end %>
+          </div>
+          <div class="card m-3 p-1 d-flex justify-content-center align-items-center">
+            This feature is under construction.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
