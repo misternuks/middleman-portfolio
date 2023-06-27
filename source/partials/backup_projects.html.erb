@@ -7,10 +7,13 @@
         <div class="container">
           <div class="row">
             <% data.projects.each do |project| %>
-              <button class="btn btn-danger col-12 p-2 m-1">
+              <div class="col-12 card p-1">
                 <h4><%= project.name %></h4>
+                <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                  <i class="fas fa-external-link-alt"></i>
+                <% end %>
                 <p><%= project.description %></p>
-              </button>
+              </div>
             <% end %>
           </div>
         </div>

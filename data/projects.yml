@@ -13,7 +13,7 @@
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Final project
-  description: Check back later for updates on this section.
+- name: Radiant
+  description: A web tool for tabletop gamers to generate AI-trained personalized narrative.
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: https://www.radiant-assistant.com/

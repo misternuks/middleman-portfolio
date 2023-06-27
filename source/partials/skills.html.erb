@@ -7,13 +7,13 @@
         <div class="container button-grid">
           <div class="row">
             <% data.skills.each do |skill|%>
-              <div id="<%= skill.name %>" class="bg-transparent border-0 col-3 icon mx-2 <%= skill.name == "ruby" ? "text-danger" : "text-black" %> >">
+              <div id="<%= skill.name %>" class="bg-transparent border-0 col-2 icon m-1 <%= skill.name == "ruby" ? "text-danger" : "text-secondary" %> >">
                 <i class= <%= skill.devicon %> ></i>
                 <p class='d-none'> <%= skill.info %> </p>
               </div>
             <% end %>
           </div>
-          <div class="card m-3 p-1 d-flex justify-content-center align-items-center">
+          <div class="m-3 p-1 d-flex justify-content-center align-items-center">
             This feature is under construction.
           </div>
         </div>
