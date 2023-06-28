@@ -1,19 +1,23 @@
-- name: Longest Word Game
-  description: Check back later for updates on this section.
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Orange Tree Growth Simulator
+  id: orange
+  description: This Ruby project simulates a tree's life cycle. It demosntrates fundamental programming concepts such as looping, conditionals, and probability. It is also a basic example of object-oriented programming via custom classes with instance variables and encapsulation.
+  image: projects/orange_tree_screenshot.png
+  url: https://github.com/misternuks/ruby-practice/blob/main/02-OOP/orange-tree/lib/orange_tree.rb
 
-- name: Movie Watchlist
+- name: Movie Watchlists
+  id: movie
   description: Check back later for updates on this section.
   image: projects/placeholder.png
   url: https://www.google.com
 
 - name: Airbnb
+  id: airbnb
   description: Check back later for updates on this section.
   image: projects/placeholder.png
   url: https://www.google.com
 
 - name: Radiant
+  id: radiant
   description: A web tool for tabletop gamers to generate AI-trained personalized narrative.
   image: projects/placeholder.png
   url: https://www.radiant-assistant.com/
