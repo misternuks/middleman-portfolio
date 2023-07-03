@@ -7,7 +7,7 @@
         <div class="container button-grid">
           <div class="row">
             <% data.skills.each do |skill|%>
-              <div id="<%= skill.name %>" class="bg-transparent border-0 col-2 icon m-1 <%= skill.name == "ruby" ? "text-danger" : "text-secondary" %> >">
+              <div id="<%= skill.name %>" class="bg-transparent border-0 col-2 icon m-1 <%= 'text-danger' if skill.name == 'ruby' %>">
                 <i class= <%= skill.devicon %> ></i>
                 <p class='d-none'> <%= skill.info %> </p>
               </div>
