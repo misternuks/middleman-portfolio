@@ -10,7 +10,7 @@
   image: projects/task_manager.png
   url: https://plan-master-5000-ab31560c57dc.herokuapp.com/
 
-- name: Airbnb
+- name: Marketplace Proof of Concept
   id: airbnb
   description: Check back later for updates on this section.
   image: projects/placeholder.png
@@ -18,6 +18,6 @@
 
 - name: Radiant
   id: radiant
-  description: A web tool for tabletop gamers to generate AI-trained personalized narrative.
-  image: projects/placeholder.png
+  description: Designed for tabletop game masters to aid their storytelling, this web application integrates AI-generated texts with user-provided parameters to generate personalized narrative snippets. This project demonstrates my front-end design capabilities, my back-end programming skills, my advanced knowledge of CRUD methods in a static Postgresql database, and my capability as a project manager (I oversaw and controlled feature merging in GitHub and handled production deployment and custom DNS configuration in Heroku).
+  image: projects/radiant.png
   url: https://www.radiant-assistant.com/
