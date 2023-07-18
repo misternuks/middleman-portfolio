@@ -1,8 +1,8 @@
-- name: Orange Tree Growth Simulator
-  id: orange
-  description: This Ruby project simulates a tree's life cycle. It demonstrates fundamental programming concepts such as looping, conditionals, and probability. It is also a basic example of object-oriented programming via custom classes with instance variables and encapsulation.
-  image: projects/orange_tree_screenshot.png
-  url: https://github.com/misternuks/ruby-practice/blob/main/02-OOP/orange-tree/lib/orange_tree.rb
+- name: Movie Master 5000
+  id: movie
+  description: This Ruby on Rails project demonstrates my ability to design a many-to-many (n:n) relational database schema; build the models, controllers, and routes for the different tables; and design view pages for users to interact with the database via CRUD methods (creating, reading, updating, and deleting instances of the models). In this case, users can create movie watchlists, then add movies (via a 'bookmark' join table) to the lists.
+  image: projects/watchlist.png
+  url: https://movie-master-5000-f1b7942179e7.herokuapp.com/
 
 - name: Plan Master 5000
   id: plan
