@@ -6,7 +6,7 @@
 
 - name: Plan Master 5000
   id: plan
-  description: This is a simple and light-weight Ruby on Rails web app that demonstrates CRUD processes within Rails, working with a Postgresql database, authenticating users via Devise, and deploying to a production environment via Heroku.
+  description: This is a simple and light-weight Ruby on Rails web app that demonstrates CRUD processes within Rails, working with a Postgresql database, and deploying to a production environment via Heroku.
   image: projects/task_manager.png
   url: https://plan-master-5000-ab31560c57dc.herokuapp.com/
 
