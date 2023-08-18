@@ -10,8 +10,8 @@
   image: projects/task_manager.png
   url: https://plan-master-5000-ab31560c57dc.herokuapp.com/
 
-- name: Marketplace Proof of Concept
-  id: airbnb
+- name: Beer Filter
+  id: beer
   description: Check back later for updates on this section.
   image: projects/placeholder.png
   url: https://www.google.com
