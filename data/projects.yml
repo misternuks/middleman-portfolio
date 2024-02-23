@@ -1,25 +1,19 @@
 
 
+- name: Obina Brewing Storefront
+  id: obina
+  description: Due to a lack of online sales, a beer brewer requested that I redesign his e-commerce storefront, resulting in reduced overhead site costs, less cluttered and more responsive page design, more streamlined UX, and increased site traffic. I was full-stack developer for the site.
+  image: projects/obina.png
+  url: https://obinabrewing.com
+
 - name: KUIS AI Tutor
   id: tutor
-  description: This app is being built as part of a government-funded research project at a language university. The app allows students to receive personalized tutoring sessions from an AI-powered chat partner. The app sends class and lesson-specific data to OpenAI via an API call, and the response is framed as a one-to-one live chat between a student and an AI tutor. I am serving as sole fullstack developer for the project.
+  description: This AI tutor assists students with class-specific topics inputted by teachers and sent to Open AI via an API call. The app was designed to serve a private university department's needs for secure user authorization, authentication, and student data management. I am serving as sole fullstack developer for the project.
   image: projects/kuis_ai_tutor.png
   url: https://github.com/misternuks/ai-tutor
 
 - name: Radiant
   id: radiant
-  description: Designed for tabletop game masters to aid their storytelling, this web application integrates AI-generated texts with user-provided parameters to generate personalized narrative snippets. During the app's intitial development, my roles involved front- and back-end design, development hosting, version control via Git / GitHub, debugging, & deployment to Heroku.
+  description: This was a team project to create an online tool for tabletop gamers who need assistance in creating stories. The app passes player-selected parameters to OpenAI via API calls and returns personalized narration to enhance and streamline gaming sessions. During the app's intitial development, my roles involved front- and back-end design, development hosting, version control via Git / GitHub, debugging, & deployment to Heroku.
   image: projects/radiant.png
   url: https://www.radiant-assistant.com/
-
-- name: Movie Master 5000
-  id: movie
-  description: This Ruby on Rails project demonstrates my ability to design a many-to-many (n:n) relational database schema; build the models, controllers, and routes for the different tables; and design view pages for users to interact with the database via CRUD methods (creating, reading, updating, and deleting instances of the models). In this case, users can create movie watchlists, then add movies (via a 'bookmark' join table) to the lists.
-  image: projects/watchlist.png
-  url: https://movie-master-5000-f1b7942179e7.herokuapp.com/
-
-- name: Plan Master 5000
-  id: plan
-  description: This is a simple and light-weight Ruby on Rails web app that demonstrates CRUD processes within Rails, working with a Postgresql database, and deploying to a production environment via Heroku.
-  image: projects/task_manager.png
-  url: https://plan-master-5000-ab31560c57dc.herokuapp.com/
