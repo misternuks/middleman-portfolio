@@ -1,13 +1,13 @@
+<hr>
 <div class="row my-5">
   <div class="col-12">
     <div class="container">
       <div id="skills">
-        <h2>Skills</h2>
-        <hr>
+        <h1>Skills</h1>
         <div class="container button-grid">
           <div class="row">
             <% data.skills.each do |skill|%>
-              <div id="<%= skill.name %>" class="bg-transparent border-0 col-2 icon m-1 <%= 'text-danger' if skill.name == 'ruby' %>">
+              <div id="<%= skill.name %>" class="bg-transparent border-0 col-2 icon m-1 ">
                 <i class= <%= skill.devicon %> ></i>
                 <p class='d-none'> <%= skill.info %> </p>
               </div>
