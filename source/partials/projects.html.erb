@@ -3,23 +3,34 @@
     <div class="container">
       <div id="projects">
         <h1>Freelance Projects</h1>
-        <h5>In addition to this portfolio site, built in Middleman to emulate Ruby on Rails functionality in a static website, below is a list of client projects that demonstrate my skillset and knowledgebase.</h5>
-        <div class="container">
-          <div class="row">
-            <% data.projects.each do |project| %>
-              <button class="btn btn-danger my-1" type="button" data-bs-toggle="collapse" data-bs-target="#<%= project.id %>" aria-expanded="false" aria-controls="<%= project.id %>">
-                <%= project.name %>
-              </button>
-              <div class="collapse" id="<%= project.id %>">
-                <div class="card card-body shadow">
-                  <p><%= project.description %></p>
-                  <%= link_to image_tag(project.image, alt: "project image", class: "w-100"), project.url %>
-                </div>
-              </div>
-            <% end %>
-          </div>
+        <h5>This portfolio site was built in Middleman to emulate Ruby on Rails functionality in a static website. Additionally, below is a list of client projects that demonstrate my skillset and knowledgebase.</h5>
+        <div class="d-flex flex-column align-items-center justify-content-center m-3 gap-3">
+          <% data.projects.each do |project| %>
+            <div class="card-category w-100" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/<%= project.image %>);" data-name="<%= project.name %>" data-description="<%= project.description %>">
+              <%= project.name %>
+            </div>
+          <% end %>
         </div>
       </div>
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var cardCategories = document.querySelectorAll('.card-category');
+
+    cardCategories.forEach(function(card) {
+      card.addEventListener('mouseover', function() {
+        // Mouse over
+        this.textContent = this.getAttribute('data-description');
+        this.classList.add('small');
+      });
+
+      card.addEventListener('mouseout', function() {
+        // Mouse out
+        this.textContent = this.getAttribute('data-name');
+        this.classList.remove('small');
+      });
+    });
+  });
+</script>
